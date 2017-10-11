@@ -44,5 +44,7 @@ Inside *Gruntfile.js*
 * Find the `port` here, modify it if you wish. <br>
 * Set `IPv4address` to `0.0.0.0` to enable LAN hosting if it isn't already, or leave it as localhost.
 
+*After any changes made, please `grunt build` the project *before* committing and pushing to update the `dist` or distribution folder. This folder contains the files that will be shown in the website.
+
 ### Programming
 About adding a new page and routing. Check [angular:route](https://github.com/yeoman/generator-angular#route). Should I put the details here?
