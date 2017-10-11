@@ -1,4 +1,4 @@
-# [SKRNotes.github.io](skrnotes.github.io)
+# [SKRNotes.github.io](https://skrnotes.github.io)
 
 This project is made using the[Yeoman Generator](https://github.com/yeoman/generator-angular). Check it out for further useful features. 
 ## Installation for Devs
@@ -19,7 +19,7 @@ Clone this project, then run the following inside the terminal of the project ro
 > bower install
     // To install required components
 </pre>
-This process takes a while, so go ahead and grab a coffee.
+These processes takes a while, so go ahead, grab a coffee.
 
 ##### npm vs bower
 From what I understood, they are technically doing the same package installation, but
