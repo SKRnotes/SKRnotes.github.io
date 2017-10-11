@@ -1,8 +1,8 @@
 # [SKRNotes.github.io](https://skrnotes.github.io)
 
-This project is made using the[Yeoman Generator](https://github.com/yeoman/generator-angular). Check it out for further useful features. 
+This project is made using the [Yeoman Generator](https://github.com/yeoman/generator-angular). Check it out for further useful features. 
 ## Installation for Devs
-We are going to need the following: (Where[links]()are provided, please **download** them before proceeding)
+We are going to need the following: (Where [links]() are provided, please **download** them before proceeding)
 * [NodeJS](https://nodejs.org/en/) 6.11.4 LTS
   * NPM (For package installation)
 * [Ruby](https://rubyinstaller.org/downloads/) or use Homebrew (For SCSS)
@@ -45,4 +45,4 @@ Inside *Gruntfile.js*
 * Set `IPv4address` to `0.0.0.0` to enable LAN hosting if it isn't already, or leave it as localhost.
 
 ### Programming
-About adding a new page and routing. Check [angular:route.](https://github.com/yeoman/generator-angular#route)Should I put the details here?
+About adding a new page and routing. Check [angular:route](https://github.com/yeoman/generator-angular#route). Should I put the details here?
