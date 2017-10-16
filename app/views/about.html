@@ -1,17 +1,19 @@
-<div>
+<div class="page">
   This project is dedicated to any computer science students that is interested in notes.
 
   <h3>Meet the team!</h3>
 
   <md-content>
-    <md-list>
-      <md-list-item class="md-3-line" ng-repeat="item in about.members" ng-click="about.openLink(item.link)">
-        <img class="md-avatar" src="{{item.avatar}}" >
-        <div class="md-list-item-text" layout="column">
-          <h3><strong><a>{{item.name}}</a></strong></h3>
-          <h4>{{item.university}}</h4>
-          <p>{{item.course}}</p>
-        </div>
+    <md-list layout="row" layout-xs="column" layout-align="center center">
+      <md-list-item class="md-3-line" ng-repeat="item in about.members" ng-click="about.openLink(item.link)" flex>
+        <section layout="column" layout-align="center center" flex>
+          <img width="200" class="md-avatar-icon" src="{{about.getAvatar(item.avatar)}}" />
+          <div class="md-primary md-list-item-text about" layout="column">
+            <h3><strong><a href="{{item.link}}">{{item.name}}</a></strong></h3>
+            <h4>{{item.university}}</h4>
+            <p>{{item.course}}</p>
+          </div>
+        </section>
       </md-list-item>
     </md-list>
   </md-content>
