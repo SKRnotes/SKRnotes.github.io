@@ -1,0 +1,9 @@
+<!doctype html> <html> <head> <meta charset="utf-8"> <title>SKR Notes</title> <meta name="description" content=""> <meta name="viewport" content="width=device-width"> <!-- Place favicon.ico and apple-touch-icon.png in the root directory --> <link rel="stylesheet" href="styles/vendor.91f2ac41.css"> <link rel="stylesheet" href="styles/main.5ec4068e.css"> </head> <body ng-app="skrnotesgithubioApp"> <!--[if lte IE 8]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]--> <!-- Add your site or application content here --> <section layout="row" layout-xs="column"> <md-button class="md-hue-2 md-accent" ng-href="https://github.com/SKRnotes/SKRnotes.github.io">SKR Notes</md-button> <section layout="row" layout-align="center center" layout-fill> <md-nav-bar md-selected-nav-item="'home'" layout-align="space-between center" nav-bar-aria-label="navigation links"> <md-nav-item md-nav-href="#!/" name="home">Home</md-nav-item> <md-nav-item md-nav-href="#!/about" name="about">About</md-nav-item> </md-nav-bar> </section> <md-button md-no-ink onclick="alert('Howd you find me!?')"></md-button> </section> <br> <div ng-view></div> <!-- Google Analytics: change UA-XXXXX-X to be your site's ID --> <script>!function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
+       (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
+       r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
+       }(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+       ga('create', 'UA-XXXXX-X');
+       ga('send', 'pageview');</script> <script src="scripts/vendor.04321786.js"></script> <script src="scripts/scripts.56e987a7.js"></script> </body> </html>
